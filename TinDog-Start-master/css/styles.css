@@ -1,0 +1,137 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+}
+.navbar-brand{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.row{
+    padding-top: 40px;
+    margin: 0px;
+}
+.nav-item{
+    padding: 0% 10%;
+}
+.navbar-nav{
+    margin-right: 20%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 12rem;
+}
+.iphone-mockup{
+    transform: rotate(20deg);
+    width: 60%;
+    position: absolute;
+    padding-left: 20px;
+  }
+#features{
+    text-align: center;
+    padding:50px 50px;
+    background-color:white;
+    position: relative;
+}
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: Montserrat-Black;
+    font-weight: 900;
+    line-height: 3.5rem;
+    color: white;
+    padding: 5rem;
+}
+.carousel-item{
+    padding: 3% 32% 9%;
+}
+.testimony-image{
+    border-radius:100%;
+    width: 3rem;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.press-image{
+    width: 10rem;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-weight:bolder;
+    font-size: 4rem;
+    line-height: 1;
+    color: white;
+}
+h2{
+    font-family: montserrat-black;
+    font-weight: bolder;
+
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-weight: 900;
+}
+p{
+    color: rgb(128, 128, 128);
+    margin-bottom: 0px;
+}
+.icon{
+    color: #ff4c68;
+}
+.icon:hover{
+    color: #fc0b2f;
+}
+.Download-button{
+    margin: 5% 3% 5% 0%;
+}
+.mastiff{
+    padding: 0px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.plan{
+    padding: 5% 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 19% 3%;
+    color: white;
+    line-height: 1.5rem;
+}
+.socials{
+    margin: 2px 10px;
+}
+#footer{
+    text-align: center;
+    margin: 2%;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+@media (max-width:1020px) {
+    .iphone-mockup{
+        position: static;
+        transform: none;
+    }
+    .row{
+        text-align: center;
+    }
+}
+@media (max-width: 920) {
+    h2{
+        font-weight: 100;
+        font-size: small;
+    }
+}
